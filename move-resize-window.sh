@@ -9,7 +9,7 @@
 if ! type "xdotool" > /dev/null; then
   echo "This program needs xdotool to work."
   echo "You can install xdotool with the following command:"
-  echo -e "\e[3msudo apt-get install xdotool\e[0m"
+  echo -e "\x1B[3msudo apt-get install xdotool\x1B[0m"
   exit 1
 else
 	case $1 in
