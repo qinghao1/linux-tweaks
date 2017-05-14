@@ -2,6 +2,8 @@
 
 #Simple script to enable single-command window repositioning and resizing
 #Put this in your /usr/local/bin to run this from the command line
+#Remember to change permissions so that it is executable
+#sudo chmod a+x /usr/local/bin/move-resize-window.sh
 #Written by @qinghao1
 
 if ! type "xdotool" > /dev/null; then
