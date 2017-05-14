@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Simple script to enable single-command window repositioning and resizing
-#Put this in your /usr/bin to run this from the command line
+#Put this in your /usr/local/bin to run this from the command line
 #Written by @qinghao1
 
 if ! type "xdotool" > /dev/null; then
